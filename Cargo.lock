@@ -661,14 +661,12 @@ version = "0.13.0"
 dependencies = [
  "async-compression",
  "capnp",
- "capnp-futures",
  "capnp-rpc",
  "circus-logs",
  "circus-proto",
  "clap",
  "color-eyre",
  "config",
- "futures",
  "hex",
  "libc",
  "nix",
@@ -676,20 +674,17 @@ dependencies = [
  "reqwest 0.13.5",
  "rustls",
  "rustls-native-certs",
- "rustls-pki-types",
  "serde",
  "serde_json",
  "sha2 0.11.0",
  "sysinfo",
  "tempfile",
- "thiserror 2.0.20",
  "tokio",
  "tokio-rustls",
  "tokio-util",
  "tracing",
  "url",
  "uuid",
- "whoami",
 ]
 
 [[package]]
@@ -781,12 +776,9 @@ dependencies = [
  "futures",
  "git2",
  "hex",
- "lettre",
- "libc",
  "nix",
  "num_enum",
  "regex",
- "reqwest 0.13.5",
  "ring",
  "rust_decimal",
  "rustls",
@@ -801,9 +793,7 @@ dependencies = [
  "toml",
  "tracing",
  "url",
- "urlencoding",
  "uuid",
- "whoami",
 ]
 
 [[package]]
@@ -833,7 +823,6 @@ dependencies = [
  "circus-notification",
  "clap",
  "color-eyre",
- "config",
  "evix",
  "futures",
  "git2",
@@ -843,12 +832,10 @@ dependencies = [
  "serde_json",
  "sha2 0.11.0",
  "tempfile",
- "thiserror 2.0.20",
  "tokio",
  "tokio-util",
  "toml",
  "tracing",
- "tracing-subscriber",
  "url",
  "uuid",
 ]
@@ -916,12 +903,8 @@ name = "circus-proto"
 version = "0.13.0"
 dependencies = [
  "capnp",
- "capnp-futures",
- "capnp-rpc",
  "capnpc",
- "futures",
  "serde_json",
- "thiserror 2.0.20",
 ]
 
 [[package]]
@@ -931,7 +914,6 @@ dependencies = [
  "async-compression",
  "base64 0.23.1",
  "capnp",
- "capnp-futures",
  "capnp-rpc",
  "chrono",
  "circus-common",
@@ -943,27 +925,21 @@ dependencies = [
  "circus-s3",
  "clap",
  "color-eyre",
- "config",
  "dashmap",
  "futures",
  "hex",
  "jsonwebtoken",
  "parking_lot",
  "reqwest 0.13.5",
- "ring",
  "rustls",
- "rustls-pki-types",
  "serde",
  "serde_json",
  "sha2 0.11.0",
  "subtle",
- "thiserror 2.0.20",
- "time",
  "tokio",
  "tokio-rustls",
  "tokio-util",
  "tracing",
- "tracing-subscriber",
  "url",
  "urlencoding",
  "uuid",
@@ -1000,12 +976,10 @@ dependencies = [
  "circus-migrations",
  "circus-nix",
  "circus-notification",
- "circus-proto",
  "circus-s3",
  "clap",
  "cognos",
  "color-eyre",
- "config",
  "dashmap",
  "futures",
  "hex",
@@ -1024,7 +998,6 @@ dependencies = [
  "strip-ansi-escapes",
  "subtle",
  "tar",
- "thiserror 2.0.20",
  "time",
  "tokio",
  "tokio-rusqlite",
@@ -1033,7 +1006,6 @@ dependencies = [
  "tower",
  "tower-http 0.7.1",
  "tracing",
- "tracing-subscriber",
  "url",
  "utoipa",
  "uuid",
@@ -2233,9 +2205,9 @@ checksum = "df3b46402a9d5adb4c86a0cf463f42e19994e3ee891101b1841f30a545cb49a9"
 
 [[package]]
 name = "humantime"
-version = "2.3.0"
+version = "2.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "135b12329e5e3ce057a9f972339ea52bc954fe1e9358ef27f95e89716fbc5424"
+checksum = "15cdd26707701c53297e2fa6afb323d55fbc1d0810c3aec078ae3ef0424c3c15"
 
 [[package]]
 name = "humantime-serde"

@@ -14,10 +14,8 @@ axum.workspace                = true
 axum-extra                    = { workspace = true, features = [ "cookie" ] }
 base64.workspace              = true
 chrono.workspace              = true
-circus-proto.workspace        = true
 clap.workspace                = true
 color-eyre.workspace          = true
-config.workspace              = true
 dashmap.workspace             = true
 futures.workspace             = true
 hex.workspace                 = true
@@ -34,16 +32,13 @@ sha2.workspace                = true
 strip-ansi-escapes.workspace  = true
 subtle.workspace              = true
 tar.workspace                 = true
-thiserror.workspace           = true
 time.workspace                = true
 tokio.workspace               = true
 tokio-rusqlite.workspace      = true
 tokio-util.workspace          = true
 toml.workspace                = true
-tower.workspace               = true
 tower-http.workspace          = true
 tracing.workspace             = true
-tracing-subscriber.workspace  = true
 utoipa.workspace              = true
 uuid.workspace                = true
 
