@@ -633,7 +633,7 @@ dependencies = [
 
 [[package]]
 name = "circus"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "circus-agent",
  "circus-binary-cache",
@@ -657,7 +657,7 @@ dependencies = [
 
 [[package]]
 name = "circus-agent"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "async-compression",
  "capnp",
@@ -689,7 +689,7 @@ dependencies = [
 
 [[package]]
 name = "circus-binary-cache"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "blake3",
  "bstr",
@@ -727,7 +727,7 @@ dependencies = [
 
 [[package]]
 name = "circus-cli"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "circus-common",
  "clap",
@@ -758,7 +758,7 @@ dependencies = [
 
 [[package]]
 name = "circus-common"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "argon2",
  "base64 0.23.1",
@@ -798,7 +798,7 @@ dependencies = [
 
 [[package]]
 name = "circus-config"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "circus-logs",
  "circus-types",
@@ -814,7 +814,7 @@ dependencies = [
 
 [[package]]
 name = "circus-evaluator"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "chrono",
  "circus-common",
@@ -842,7 +842,7 @@ dependencies = [
 
 [[package]]
 name = "circus-logs"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "serde",
  "tracing-subscriber",
@@ -850,7 +850,7 @@ dependencies = [
 
 [[package]]
 name = "circus-migrations"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "circus-codegen",
  "color-eyre",
@@ -868,7 +868,7 @@ dependencies = [
 
 [[package]]
 name = "circus-nix"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "circus-types",
  "regex",
@@ -881,7 +881,7 @@ dependencies = [
 
 [[package]]
 name = "circus-notification"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "circus-common",
  "circus-config",
@@ -900,7 +900,7 @@ dependencies = [
 
 [[package]]
 name = "circus-proto"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "capnp",
  "capnpc",
@@ -909,7 +909,7 @@ dependencies = [
 
 [[package]]
 name = "circus-queue-runner"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "async-compression",
  "base64 0.23.1",
@@ -948,7 +948,7 @@ dependencies = [
 
 [[package]]
 name = "circus-s3"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "chrono",
  "circus-config",
@@ -961,7 +961,7 @@ dependencies = [
 
 [[package]]
 name = "circus-server"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "askama",
  "async-compression",
@@ -1013,7 +1013,7 @@ dependencies = [
 
 [[package]]
 name = "circus-types"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "clap",
  "regex",
