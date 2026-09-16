@@ -59,16 +59,11 @@ impl TryFrom<q::UserRow> for User {
 ///
 /// Returns error if password hashing fails.
 pub fn hash_password(password: &str) -> Result<String> {
-  use argon2::{
-    Argon2,
-    PasswordHasher,
-    password_hash::{SaltString, rand_core::OsRng},
-  };
+  use argon2::{Argon2, PasswordHasher};
 
-  let salt = SaltString::generate(&mut OsRng);
   let argon2 = Argon2::default();
   argon2
-    .hash_password(password.as_bytes(), &salt)
+    .hash_password(password.as_bytes())
     .map(|h| h.to_string())
     .map_err(|e| CiError::Internal(format!("Password hashing failed: {e}")))
 }

@@ -27,7 +27,6 @@ lettre.workspace              = true
 libc.workspace                = true
 nix.workspace                 = true
 num_enum.workspace            = true
-password-hash.workspace       = true
 regex.workspace               = true
 reqwest.workspace             = true
 ring.workspace                = true
