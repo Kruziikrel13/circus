@@ -5,8 +5,12 @@ rust-type = "chrono::DateTime<chrono::Utc>"
 
 [manifest.package]
 license = "MPL-2.0"
-name    = "circus-codegen"
-publish = false
+name = "circus-codegen"
+version = "0.14.0"
+description = "Generated PostgreSQL bindings for Circus"
+repository = "https://github.com/manic-systems/circus"
+edition = "2024"
+rust-version = "1.85"
 
 [manifest.dependencies]
 chrono = { version = "0.4", features = [ "serde" ] }

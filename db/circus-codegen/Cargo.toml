@@ -2,11 +2,12 @@
 
 [package]
 name = "circus-codegen"
-version = "0.0.0"
+version = "0.14.0"
 edition = "2024"
 rust-version = "1.85"
 license = "MPL-2.0"
-publish = false
+repository = "https://github.com/manic-systems/circus"
+description = "Generated PostgreSQL bindings for Circus"
 
 [dependencies.chrono]
 version = "0.4"
